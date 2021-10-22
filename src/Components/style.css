@@ -1,0 +1,31 @@
+.btn-sub{width: 200px;}
+.form-outline {
+  width: 100%;
+}
+.todo-col{
+width: 70%;
+}
+
+.completed{
+  text-decoration: line-through;
+  background-color: #c5ebc6 !important;
+}
+
+.success{
+color: #4caf50 !important;
+}
+td#completed,
+td#delete,
+td#edit {
+cursor: pointer;
+}
+td#completed svg,
+td#delete svg,
+td#edit svg{
+position: relative;
+z-index: -1;
+}
+.filter-chekboxs{
+  background-color: rgba(26, 139, 173, 0.356);
+  padding: 10px;
+}
